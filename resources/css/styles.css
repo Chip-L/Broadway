@@ -1,8 +1,51 @@
+/* Features that apply to the base of the page */
 html {
   text-align: center;
   font-family: Helvetica;
 }
 
+/* title */
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Headings */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* subheadings */
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* general text */
+p {
+  font-size: 14px;
+}
+
+/* footer */
+footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+/* this will provide the image behind the text. This is not done on the h1
+  property so that it can also go to the h3 property in the middle of the
+  page */
 .bg_img {
   background-image: url("../images/the-flatiron-building.png");
+}
+
+/* this will provide the formatting for the links that are providing the
+  on-page navigation. This is not attached to all links because the links that
+  will be under the WORK section may be displayed differently */
+.nav_btn {
+  font-size: 18px;
+  color: white;
 }
