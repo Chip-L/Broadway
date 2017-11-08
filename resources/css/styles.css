@@ -8,7 +8,6 @@ html {
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: white;
 }
 
 /* Headings */
@@ -38,8 +37,9 @@ footer {
 /* this will provide the image behind the text. This is not done on the h1
   property so that it can also go to the h3 property in the middle of the
   page */
-.bg_img {
+.hero {
   background-image: url("../images/the-flatiron-building.png");
+  color: white;
 }
 
 /* this will provide the formatting for the links that are providing the
@@ -47,5 +47,4 @@ footer {
   will be under the WORK section may be displayed differently */
 .nav_btn {
   font-size: 18px;
-  color: white;
 }
