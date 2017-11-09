@@ -32,6 +32,7 @@ footer {
   font-size: 11px;
   color: white;
   background-color: dimgray;
+  text-align: left;
 }
 
 /* this will provide the image behind the text. This is not done on the h1
@@ -47,5 +48,5 @@ footer {
   will be under the WORK section may be displayed differently */
 .nav_btn {
   font-size: 18px;
-  color: white;
+  color: white; 
 }
